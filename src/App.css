@@ -1,8 +1,42 @@
+
 .App {
-  text-align: center;
+  font-family: consolas;
+  margin: 0;
+  background-color: rgb(252, 245, 237)
+}
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+#intro {
+  background-image: url(./assets/img/polygonal-blue-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: "no-repeat";
+  height: 80vh;
+  color: white;
 }
 
-.App-logo {
+#about {
+  padding-top: 90px;
+    padding-bottom: 100px;
+}
+#work {
+  padding-top: 90px;
+    padding-bottom: 100px;
+}
+#experience {
+  padding-top: 90px;
+    padding-bottom: 100px;
+}
+#passion {
+  padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,28 +45,68 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+.footer {
   background-color: #282c34;
-  min-height: 100vh;
+  color: rgb(15, 13, 13);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+}
+.body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.479);
+  z-index: 1;
+}
+.font_box {
+  margin-top: 200px;
+}
+.title_container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.title_text_lg {
+  font-size: 400%;
+  font-weight: 500;
+  position: relative;
+}
+.title_text_sm {
+  font-size: 150%;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.footer_text {
+  margin: 0;
+  color: aliceblue;
+ 
+}
+.section_container {
+  position: relative;
+  height: 80vh;
+  background-color: rgb(252, 245, 237);
+  color: #282c34;
 }
 
-.App-link {
-  color: #61dafb;
+.arrow {
+  margin-top: 200px;
+  width: 20px;
+
+}
+.section_title {
+  /* margin-top: 90px; */
+  text-align: center;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
