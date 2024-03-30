@@ -1,4 +1,4 @@
-<svg width="15" height="15" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; transform: rotateY(0deg);"><style>
+<svg width="15" height="15" viewBox="7 7 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; transform: rotateY(0deg);"><style>
      .line-heart1 {animation:line-heart1-pulse 2s infinite; transform-origin: 50px 50px;}
      @keyframes line-heart1-pulse{
          0% {transform: scale3d(1, 1, 1);}
