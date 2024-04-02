@@ -1,0 +1,27 @@
+{
+
+
+  "INTRO": "",
+  "welcome": "HI, I'M KEVIN",
+  "developer": "Enthusiastic developer",
+
+  "ABOUT": "ABOUT",
+  "about_title": "A LITTLE BIT ABOUT ME",
+  "about_subtitle": "Passionate Developer with a Unique Background",
+  "self_description": "👋 Hi there! I'm Kevin, a dynamic professional venturing into computer science after 33 years of diverse life experiences. Transitioning from a successful Horeca career, I pivoted towards my true passion – technology. Despite balancing a full-time job, I earned a Bachelor's degree in “Informatique de Gestion” with Distinction (in December 2023), fueling my enthusiasm for tech's endless possibilities. Curiosity and Creativity drive me; I thrive in innovative, problem-solving environments. I value collaboration, eager to learn from seasoned professionals while sharing my insights. Currently seeking software development opportunities, I aim to leverage my diverse background and passion for technology to make meaningful contributions to a forward-thinking company.",
+
+  "PASSION": "PASSION",
+  "passion_title": "WHAT I DO",
+  "ui": "User Interface (UI)",
+  "ui_text": "Design goes beyond mere appearances; it encapsulates both the external aesthetics and the internal functionality of a product, along with the holistic user experience. My goal is to craft interfaces and experiences that resonate with users across all digital platforms.",
+  "ux": "User Experience (UX)",
+  "ux_text": "I'm passionate about design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+  "afk": "Away from keyboard",
+  "afk_text": "When I'm not on my computer, I also enjoy cooking, exploring different corners of Belgium with my dog, and have a particular affinity for tasting fine wines (yes... I used to be a sommelier!).",
+  "EXPERIENCE": "EXPERIENCE",
+  "WORK": "WORK",
+  "contact": "CONTACT",
+  "": "",
+  "": "",
+  "": ""
+}

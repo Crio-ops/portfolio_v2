@@ -17,7 +17,7 @@
 .navContainer.scrolled {
   color: aliceblue;
   background: rgb(20, 20, 20);
-  height: 5vh;
+  height: 6vh;
   transition: background 0.5s ease-out-in, height 0.5s ease-out-in;
 }
 .navMenu {

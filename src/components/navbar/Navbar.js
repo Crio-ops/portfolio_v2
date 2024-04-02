@@ -1,12 +1,13 @@
-import love from "../../assets/img/heart.svg";
 import portfolioImg from "../../assets/img/logok.png"
 import React,  { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavbarStyle.css";
+import LanguageSelector from "../languageSelector/LanguageSelector.js";
+import { useTranslation } from 'react-i18next';
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-
+  const { t } = useTranslation();
   useEffect(() => {
     const handleScroll = () => {
       const isTop = window.scrollY === 0;
@@ -45,20 +46,21 @@ function Navbar() {
 
       <div className="navLinkContainer">
         <a className="navLink" href="#about">
-          ABOUT
+          {t('ABOUT')}
         </a>
         <a className="navLink" href="#passion">
-          PASSION
+        {t('PASSION')}
         </a>
         <a className="navLink" href="#experience">
-          EXPERIENCE
+        {t('EXPERIENCE')}
         </a>
         <a className="navLink" href="#work">
-          WORK
+        {t('WORK')}
         </a>
         <a className="navLink" href="#contact">
-          CONTACT
+        {t('CONTACT')}
         </a>
+         <LanguageSelector/>
       </div>
     </div>
   );

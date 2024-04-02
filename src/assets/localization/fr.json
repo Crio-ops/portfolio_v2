@@ -1,0 +1,26 @@
+{
+  "INTRO": "",
+  "welcome": "BONJOUR,  JE M'APPELLE KEVIN",
+  "developer": "Développeur passioné",
+
+  "ABOUT": "A PROPOS",
+  "about_title": "A propos de moi",
+  "about_subtitle": "Développeur passioné au parcours unique",
+  "self_description": "👋 Salut ! Je suis Kevin, un professionnel dynamique me lançant dans l'informatique après 33 années d'expériences de vie diverses. Faisant la transition depuis une carrière réussie dans l'Horeca, je me suis dirigé vers ma véritable passion - la technologie. Malgré le jonglage d'un emploi à temps plein, j'ai obtenu une licence en Informatique de Gestion avec Distinction (en décembre 2023), alimentant ainsi mon enthousiasme pour les possibilités infinies de la technologie. La curiosité et la créativité me motivent ; je prospère dans des environnements innovants axés sur la résolution de problèmes. Je valorise la collaboration et suis impatient d'apprendre des professionnels expérimentés tout en partageant mes idées. Actuellement à la recherche d'opportunités dans le domaine du développement logiciel, je vise à tirer parti de mon parcours diversifié et de ma passion pour la technologie pour apporter des contributions significatives à une entreprise avant-gardiste.",
+
+  "PASSION": "PASSION",
+  "passion_title": "CE QUE JE FAIS",
+  "ui": "Interface Utilisateur (UI)",
+  "ui_text": "Le design va au-delà des simples apparences ; il englobe à la fois l'esthétique externe et la fonctionnalité interne d'un produit, ainsi que l'expérience utilisateur globale. Mon objectif est de concevoir des interfaces et des expériences qui résonnent avec les utilisateurs sur toutes les plateformes numériques.",
+  "ux": "Expérience Utilisateur (UX)",
+  "ux_text": "Je suis passionné par le design et le développement, et je m'intéresse au développement d'applications mobiles. En évoluant en tant que développeur, j'espère écrire un code propre et lisible qui puisse être utilisé par d'autres et exploité pour créer des logiciels magnifiques.",
+  "afk": "Mais aussi",
+  "afk_text": "Quand je ne suis pas devant mon ordinateur, j'aime cuisiner, participer à des dégustations de vins (oui... j'ai été sommelier !) et me promener dans différents coins de Belgique avec mon chien.",
+  "EXPERIENCE": "EXPERIENCE",
+  "WORK": "MON TRAVAIL",
+  "CONTACT": "CONTACT",
+  "": "",
+  "": "",
+  "": "",
+  "": ""
+}

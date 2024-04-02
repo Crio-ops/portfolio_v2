@@ -4,24 +4,22 @@ import DownArrow from '../../assets/img/down_arrow.png';
 import Ui_img from "../../assets/img/ui.png";
 import Ux_img from "../../assets/img/ux.png";
 import Break_img from "../../assets/img/break.png";
+import { useTranslation } from 'react-i18next';
 
 function PassionSection() {
+  const { t } = useTranslation();
   return (
     <section id="passion">
       <div className="section_title_container">
-        <p className="section_title">WHAT I DO</p>
+        <p className="section_title">{t('passion_title')}</p>
       </div>
       <div className="subsection_container">
         <div className="row_container">
         <div className="row">
           <img src={Ui_img} alt="" style={{ height: "9em", width: "auto", marginBottom : '2vh'  }} />
-          <p className="section_title">User Interface</p>
+          <p className="section_title">{t('ui')}</p>
           <p className="row_text">
-            Design goes beyond mere appearances; it encapsulates both the
-            external aesthetics and the internal functionality of a product,
-            along with the holistic user experience. My goal is to craft
-            interfaces and experiences that resonate with users across all
-            digital platforms.
+          {t('ui_text')}
           </p>
           </div>
         </div>
@@ -32,13 +30,10 @@ function PassionSection() {
               alt=""
               style={{ height: "15vh", width: "auto", marginBottom : '2vh' }}
             />
-            <p className="section_title">User Experience</p>
+            <p className="section_title">{t('ux')}</p>
 
             <p className="row_text">
-              I'm passionate about design and development, and interested in
-              mobile app development. As I grow as a developer, I hope to write
-              clean, readable code that can be used by others and leveraged to
-              create beautiful software.
+              {t('ux_text')}
             </p>
           </div>
         </div>
@@ -47,9 +42,9 @@ function PassionSection() {
         <div className="column">
         <img src={Break_img} alt=""  style={{ height: "15vh", width: "auto", marginRight : '5vh' }} />
         <div className="text_column">
-        <p className="section_title">Away from keyboard</p>
+        <p className="section_title"> {t('afk')}</p>
        <p className="row_text">
-        When I'm not on my computer, I also enjoy cooking, exploring different corners of Belgium with my dog, and have a particular affinity for tasting fine wines (yes... I used to be a sommelier!).
+       {t('afk_text')}
         </p> 
         </div>
         </div>
