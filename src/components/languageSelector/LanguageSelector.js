@@ -42,11 +42,49 @@ function LanguageSelector() {
   );
 
   const customStyles = {
+    control: (provided, state) => ({
+      ...provided,
+      background: 'transparent',
+      borderColor: 'transparent',
+      minHeight: '30px',
+      height: '30px',
+      margin: '0',
+      boxShadow: state.isFocused ? null : null,
+    }),
+    valueContainer: (provided, state) => ({
+      ...provided,
+      height: '30px',
+      padding: '0'
+    }),
+    input: (provided, state) => ({
+      ...provided,
+      margin: '0px',
+    }),
+    indicatorSeparator: state => ({
+      display: 'none',
+    }),
+    indicatorsContainer: (provided, state) => ({
+      ...provided,
+      display: 'none',
+    }),
+    menu: (provided, state) => ({
+      ...provided,
+      top: '100%',
+      position: 'absolute',
+      width: '150%',
+      zIndex: 1,
+      backgroundColor:' hsl(0, 0%, 100%)',
+      borderRadius: '4px',
+      marginBottom: '8px',
+      marginTop: '8px',
+      boxSizing: 'border-box',
+    }),
     option: (provided) => ({
       ...provided,
       display: "flex",
       flexDirection: "row",
-      alignItems: "center",
+      alignItems: "baseline",
+      padding:'5px 8px 5px 10px'
     }),
     singleValue: (provided) => ({
       ...provided,
@@ -67,6 +105,7 @@ function LanguageSelector() {
        classNames={{
         control: (state) =>
           state.isFocused ? 'border-red-600' : 'border-grey-300',
+  
       }}
         styles={customStyles}
         onChange={changeLanguage}

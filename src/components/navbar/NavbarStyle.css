@@ -4,6 +4,7 @@
   z-index: 1020;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: 0 0 ;
   height: 9vh;
   width: 100%;
@@ -23,12 +24,11 @@
 .navMenu {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 }
 .navItems {
-  margin-right: 5px;
-  align-self: center;
-  font-size: 20px;
-  margin: 5px 10px;
+  margin-top: 0.3em;
+  font-size: 1.2em;
   text-decoration: none;
   color: aliceblue;
 }
@@ -51,7 +51,10 @@
 }
 
 .logo{
+  margin: 5px 10px;
   animation: rotateHeart 10s linear infinite;
+  max-height: 3em;
+  /* height: 2.5em; */
 }
 
 @keyframes rotateHeart {
@@ -62,3 +65,35 @@
     transform: rotateY(-360deg);
   }
 }
+@media only screen and (max-width: 768px) {
+  .navContainer {
+    display: flex;
+    flex-direction: row;
+    padding-right: 1.5em;
+  }
+.navItems {
+font-size: smaller;
+}
+
+.navLinkContainer {
+  display: flex;
+  align-items: center;
+  text-align: end;
+  font-size: 1em;
+
+  }
+
+  .navLink {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  .logo{
+    height: 2.5em;
+  }
+
+  #dropdown{
+    align-self: flex-end;
+  }
+  
+}
+

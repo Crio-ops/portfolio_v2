@@ -2,7 +2,7 @@
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: rgb(252, 245, 237);
+  background-color: rgb(243, 241, 238);
 }
 
 .body {
@@ -38,7 +38,7 @@
 }
 
 .footer {
-  background-color: #282c34;
+  background-color: #222222;
   color: rgb(15, 13, 13);
   display: flex;
   justify-content: center;
@@ -83,14 +83,14 @@
 }
 
 .title_text_lg {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   position: relative;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .title_text_sm {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: underline;
   opacity: 0.7;
 }
@@ -115,11 +115,7 @@
   font-size: 1rem;
   color: #282c34;
 }
-.section_subtitle {
-  padding-right: 5px;
-  font-size: 0.8rem;
-  color: #282c34;
-}
+
 .section_title_bl {
   text-align: center;
   font-size: 1rem;
