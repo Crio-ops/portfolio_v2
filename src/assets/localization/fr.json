@@ -10,10 +10,10 @@
 
   "PASSION": "PASSION",
   "passion_title": "CE QUE JE FAIS",
-  "ui": "Interface Utilisateur (UI)",
-  "ui_text": "Le design va au-delà des simples apparences ; il englobe à la fois l'esthétique externe et la fonctionnalité interne d'un produit, ainsi que l'expérience utilisateur globale. Mon objectif est de concevoir des interfaces et des expériences qui résonnent avec les utilisateurs sur toutes les plateformes numériques.",
-  "ux": "Expérience Utilisateur (UX)",
-  "ux_text": "Je suis passionné par le design et le développement, et je m'intéresse au développement d'applications mobiles. En évoluant en tant que développeur, j'espère écrire un code propre et lisible qui puisse être utilisé par d'autres et exploité pour créer des logiciels magnifiques.",
+  "front": "Front-End",
+  "front_desc": "J'apprécie de donner vie aux designs et de créer des interfaces utilisateur interactives et esthétiques. Travailler sur la présentation et l'expérience utilisateur directe me motive, et chaque projet est une occasion d'explorer de nouvelles techniques et de stimuler ma créativité.",
+  "back": "Back-End",
+  "back_desc": "J'aime résoudre des problèmes techniques et construire des fondations solides pour les applications. Chaque défi rencontré me permet d'approfondir mes connaissances et d'affiner mes compétences en programmation, tout en contribuant à des solutions robustes et efficaces.",
   "afk": "Mais aussi",
   "afk_text": "Quand je ne suis pas devant mon ordinateur, j'aime cuisiner, participer à des dégustations de vins (oui... j'ai été sommelier !) et me promener dans différents coins de Belgique avec mon chien.",
 

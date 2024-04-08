@@ -1,8 +1,8 @@
 import React from "react";
 import "./PassionSectionStyle.css";
 import DownArrow from '../../assets/img/down_arrow.png';
-import Ui_img from "../../assets/img/ui.png";
-import Ux_img from "../../assets/img/ux.png";
+import Front_img from "../../assets/img/front.png";
+import Back_img from "../../assets/img/back.png";
 import Break_img from "../../assets/img/break.png";
 import { useTranslation } from 'react-i18next';
 
@@ -16,24 +16,24 @@ function PassionSection() {
       <div className="subsection_container">
         <div className="row_container">
         <div className="row">
-          <img src={Ui_img} alt="" style={{ height: "9em", width: "auto", marginBottom : '2vh'  }} />
-          <p className="section_title">{t('ui')}</p>
+          <img src={Front_img} alt="" style={{ height: "15vh", width: "auto", marginBottom : '2vh'  }} />
+          <p className="section_title">{t('front')}</p>
           <p className="row_text">
-          {t('ui_text')}
+          {t('front_desc')}
           </p>
           </div>
         </div>
         <div className="row_container">
           <div className="row">
             <img
-              src={Ux_img}
+              src={Back_img}
               alt=""
-              style={{ height: "15vh", width: "auto", marginBottom : '2vh' }}
+              style={{ height: "18vh", width: "auto", marginBottom : '2vh' }}
             />
-            <p className="section_title">{t('ux')}</p>
+            <p className="section_title">{t('back')}</p>
 
             <p className="row_text">
-              {t('ux_text')}
+              {t('back_desc')}
             </p>
           </div>
         </div>

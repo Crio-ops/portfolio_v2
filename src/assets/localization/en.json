@@ -12,10 +12,10 @@
 
   "PASSION": "PASSION",
   "passion_title": "WHAT I DO",
-  "ui": "User Interface (UI)",
-  "ui_text": "Design goes beyond mere appearances; it encapsulates both the external aesthetics and the internal functionality of a product, along with the holistic user experience. My goal is to craft interfaces and experiences that resonate with users across all digital platforms.",
-  "ux": "User Experience (UX)",
-  "ux_text": "I'm passionate about design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+  "front": "Front-End",
+  "front_desc": "I enjoy bringing designs to life and creating interactive and aesthetically pleasing user interfaces. Working on presentation and direct user experience motivates me, and each project is an opportunity to explore new techniques and stimulate my creativity.",
+  "back": "Back-End",
+  "back_desc": "I enjoy solving technical problems and building solid foundations for applications. Each challenge I encounter allows me to deepen my knowledge and refine my programming skills, while contributing to robust and effective solutions.",
   "afk": "Away from keyboard",
   "afk_text": "When I'm not on my computer, I also enjoy cooking, exploring different corners of Belgium with my dog, and have a particular affinity for tasting fine wines (yes... I used to be a sommelier!).",
 
