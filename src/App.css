@@ -112,7 +112,7 @@
 .section_title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #282c34;
 }
 
@@ -120,6 +120,14 @@
   text-align: center;
   font-size: 1rem;
   z-index: 2;
+}
+.section_container {
+  position: relative;
+  height: auto; 
+  min-height: 40vh;
+  background-color: rgb(243, 241, 238);
+  color: #282c34;
+  padding: 20px;
 }
 
 

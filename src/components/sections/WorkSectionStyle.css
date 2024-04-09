@@ -1,0 +1,62 @@
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 30rem));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+.card_description {
+  background-color: rgba(18, 18, 19, 0.788);
+  position: absolute;
+  height: 35%;
+  width: 100%;
+  bottom: 0;
+  padding: 1em;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.card-img-overlay {
+  padding: 0;
+}
+.card {
+  position: relative;
+}
+
+.card a {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  opacity: 0; /* Le bouton sera initialement masqué */
+  transition: opacity 0.1s ease-in-out, top 0.2s ease-out;
+}
+
+.card:hover a {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  transition: top 0.2s ease-out;
+  opacity: 1; /* Le bouton apparaîtra lorsque la carte est survolée */
+}
+
+.card .card-img-overlay {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover .card-img-overlay {
+  transition: background-color 0.3s ease-out-in;
+  background-color: rgba(17, 17, 17, 0.349);
+  padding: 0;
+}
+
+a {
+  z-index: 2;
+}
+
+a img {
+  height: 5em;
+}
+
+

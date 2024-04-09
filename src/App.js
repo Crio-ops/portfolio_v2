@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navbar/Navbar";
@@ -11,6 +11,9 @@ import WorkSection from "./components/sections/WorkSection";
 import ContactSection from "./components/sections/ContactSection";
 
 function App() {
+  useEffect(() => {
+    document.title = "Hermant Kevin - Portfolio";
+  }, []);
   return (
     <div className="App">
       <div className="body">

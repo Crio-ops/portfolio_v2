@@ -12,7 +12,7 @@ function Footer() {
           <img src={Love} alt="Logo" />
         </li>
         <li>
-          <p className="footer_text">by Kevin Hermant</p>
+          <p className="footer_text">by Kevin</p>
         </li>
       </ul>
     </div>

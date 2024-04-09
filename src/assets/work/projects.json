@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title_eng": "Chef's Mate",
+      "title_fr": "Chef's Mate",
+      "desc_eng": "Developed with React Native, React, Express.js, and the OpenFoodFacts API.",
+      "desc_fr": "Réalisé avec React Native, React, Express.js et L'Api OpenFoodFacts",
+      "img": "logscreen_chefmate.jpg"
+    },
+    {
+      "title_eng": "Vaccination Center",
+      "title_fr": "Centre de Vaccination",
+      "desc_eng": "Developed with Java",
+      "desc_fr": "Réalisé en Java",
+      "img": "cv.png"
+    }
+  ]
+}

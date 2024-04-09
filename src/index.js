@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -21,10 +20,10 @@ i18n
         translation: translationFR
       }
     },
-    lng: 'fr', // Langue par défaut
-    fallbackLng: 'fr', // Langue de secours
+    lng: 'fr', 
+    fallbackLng: 'fr', 
     interpolation: {
-      escapeValue: false // Ne pas échapper les caractères spéciaux
+      escapeValue: false
     }
   });
 
