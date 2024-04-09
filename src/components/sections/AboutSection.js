@@ -1,5 +1,5 @@
 import React from "react";
-import DeveloperImg from "../../assets/img/developer.png";
+import DeveloperImg from "../../assets/img/developer.jpg";
 import Down_arrow_bl from "../../assets/img/down_arrow_bl.png";
 import "./AboutSectionStyle.css";
 import { useTranslation } from "react-i18next";
@@ -9,13 +9,15 @@ function AboutSection() {
   return (
     <section id="about">
       <div className="section_container">
-        <p className="section_title" style={{ marginBottom: "100px" }}>
+        <p className="section_title" style={{ marginBottom: "1em" }}>
           {t('about_title')}
         </p>
         <div className="profile_container">
           <ul className="profile">
             <li>
-              <img className="progile_img" src={DeveloperImg} alt="" />
+              <div className="profile_img_container">
+              <img className="profile_img" src={DeveloperImg} alt="" />
+              </div>
             </li>
             {/* <li className="li_profile">
               🚀 Passionate Developer with a Unique Background 🚀

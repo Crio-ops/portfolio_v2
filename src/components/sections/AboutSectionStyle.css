@@ -1,16 +1,26 @@
   ul {
+    padding: 0;
     list-style-type: none;
   }
   
   .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin: 0 2em;
   }
   
   .li_profile {
-    margin: 2em 0; /* Réduisez la marge pour une meilleure mise en page sur les petits écrans */
+    margin: 2em 0 ;
   }
   
   .profile_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   
@@ -19,4 +29,31 @@
       font-size: 1rem; /* Rétablissez la taille de la police par défaut pour les petits écrans */
     }
   }
+
+  .profile_img_container {
+    height: 20em;
+    width: 20em;
+    overflow: hidden; 
+    border-radius: 50%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile_img {
+    height: auto;
+    width: auto;
+    max-height: 100%; /* Pour s'assurer que l'image ne dépasse pas la hauteur du conteneur */
+    max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas la largeur du conteneur */
+    position: absolute; /* Positionnement absolu pour s'ajuster au cercle */
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Ajuste l'image pour qu'elle couvre tout le conteneur sans déformer */
+    border-radius: 50%;
+  }
+  
+  
+  
   
