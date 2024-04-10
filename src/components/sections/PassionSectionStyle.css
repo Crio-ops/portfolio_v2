@@ -62,16 +62,22 @@
   flex-direction: column;
 }
 
+
+
+
 @media only screen and (max-width: 767px) {
+  .section_title_container {
+    margin: 1vh 2vh;
+  }
   .subsection_container {
     font-size: smaller;
     flex-direction: column;
     align-items: center;
-    /* margin: 1em 0rem;  */
+    margin: 2vh 0;
   }
   .row_container{
     flex-direction: column;
-    width: 90%;
+    width: 95%;
   }
   .row {
     flex-direction: column;
@@ -81,7 +87,7 @@
   }
   .col_container {
     flex-direction: column;
-    margin : 1vh 7.5vh;
+    margin : 1vh 1vh;
   }
   .column {
     flex-direction: column;

@@ -16,7 +16,7 @@ function PassionSection() {
       <div className="subsection_container">
         <div className="row_container">
         <div className="row">
-          <img src={Front_img} alt="" style={{ height: "15vh", width: "auto", marginBottom : '2vh'  }} />
+          <img src={Front_img} alt="" style={{ height: "10vh", width: "auto", marginBottom : '2vh'  }} />
           <p className="section_title">{t('front')}</p>
           <p className="row_text">
           {t('front_desc')}
@@ -28,7 +28,7 @@ function PassionSection() {
             <img
               src={Back_img}
               alt=""
-              style={{ height: "18vh", width: "auto", marginBottom : '2vh' }}
+              style={{ height: "10vh", width: "auto", marginBottom : '2vh' }}
             />
             <p className="section_title">{t('back')}</p>
 
@@ -40,7 +40,7 @@ function PassionSection() {
       </div>
       <div className="col_container">
         <div className="column">
-        <img src={Break_img} alt=""  style={{ height: "15vh", width: "auto", marginRight : '5vh' }} />
+        {/* <img src={Break_img} alt=""  style={{ height: "10vh", width: "auto", marginRight : '5vh' }} /> */}
         <div className="text_column">
         <p className="section_title"> {t('afk')}</p>
        <p className="row_text">

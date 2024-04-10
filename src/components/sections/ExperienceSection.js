@@ -12,6 +12,7 @@ import RaspberryPiImg from "../../assets/img/tech/raspberry.png";
 import ReactImg from "../../assets/img/tech/react.png";
 import ReactNativeImg from "../../assets/img/tech/reactnative.png";
 import PhpImg from "../../assets/img/tech/php.png";
+import DownArrow from "../../assets/img/down_arrow_bl.png";
 
 function ExperienceSection() {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ function ExperienceSection() {
       <div className="section_container">
         <p className="section_title">{t("EXPERIENCE")}</p>
         <div className="exp_container">
-        <p className="section_subtitle">{t("Tech_title")}</p>
+          <p className="section_subtitle">{t("Tech_title")}</p>
           <div className="tab">
             <table>
               <tr>
@@ -87,14 +88,11 @@ function ExperienceSection() {
               </tr>
             </table>
           </div>
-          {/* <div className="api_container">
-            <div className="tab">
-            <p className="section_subtitle">{t('api_title')}</p>
-              
-            </div>
-
-            
-          </div> */}
+          <div className="moveto">
+            <a href="#work">
+              <img className="arrow" src={DownArrow} alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

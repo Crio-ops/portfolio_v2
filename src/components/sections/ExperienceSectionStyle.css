@@ -10,6 +10,7 @@
   border-radius: 10px;
   width: 50em;
   height: auto;
+  margin: 0 1vh;
 }
 
 .exp_container {
@@ -18,6 +19,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin: 0 1vh;
 }
 
 td {
