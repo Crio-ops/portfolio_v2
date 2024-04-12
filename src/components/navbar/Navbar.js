@@ -1,11 +1,11 @@
-import portfolioImg from "../../assets/img/logok.png";
+import portfolioImg from "../../assets/img/decoration/logok.png";
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Dropdown from 'react-bootstrap/Dropdown';
 import "./NavbarStyle.css";
 import LanguageSelector from "../languageSelector/LanguageSelector.js";
 import { useTranslation } from 'react-i18next';
-import Menu_bar from '../../assets/img/menu-bar.png'
+import Menu_bar from '../../assets/img/decoration/menu-bar.png'
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +31,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 1000);
     };
 
     handleResize();

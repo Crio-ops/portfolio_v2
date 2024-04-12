@@ -65,7 +65,7 @@
     transform: rotateY(-360deg);
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .navContainer {
     display: flex;
     flex-direction: row;

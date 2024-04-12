@@ -1,12 +1,10 @@
 import React from "react";
-import DeveloperImg from "../../assets/img/developer.jpg";
-import Down_arrow_bl from "../../assets/img/down_arrow_bl.png";
+import DeveloperImg from "../../assets/img/decoration/developer.jpg";
+import Down_arrow_bl from "../../assets/img/decoration/down_arrow_bl.png";
 import "./AboutSectionStyle.css";
 import { useTranslation } from "react-i18next";
-import { InView } from "react-intersection-observer";
 
 function AboutSection() {
-  const [inView, setInView] = React.useState(false);
   const { t } = useTranslation();
   return (
     <section id="about">

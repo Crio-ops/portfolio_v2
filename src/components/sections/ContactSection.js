@@ -1,6 +1,6 @@
 import React from "react";
-import LinkedIn from "../../assets/img/linkedin_link.png";
-import GitHub from "../../assets/img/github_link.png";
+import LinkedIn from "../../assets/img/decoration/linkedin_link.png";
+import GitHub from "../../assets/img/decoration/github_link.png";
 import "./ContactSectionStyle.css";
 
 function ContactSection() {

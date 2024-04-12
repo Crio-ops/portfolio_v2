@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import Select from "react-select";
 import { components } from "react-select";
 import './LanguageSelectorStyle.css'
-import Fr_flag from "../../assets/img/fr_flag.png";
-import En_flag from "../../assets/img/en_flag.png";
+import Fr_flag from "../../assets/img/decoration/fr_flag.png";
+import En_flag from "../../assets/img/decoration/en_flag.png";
 
 function LanguageSelector() {
   const { i18n } = useTranslation();

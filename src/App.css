@@ -20,7 +20,7 @@
   padding-bottom: 5vh;
 }
 #intro {
-  background-image: url(./assets/img/polygonal-blue-background.jpg);
+  background-image: url(./assets/img/decoration/polygonal-blue-background.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -30,7 +30,7 @@
 }
 #passion {
   position: relative;
-  background-image: url(./assets/img/abstract_geometrical.jpg);
+  background-image: url(./assets/img/decoration/abstract_geometrical.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -101,14 +101,13 @@
 }
 
 .moveto{
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
 }
 
 
 .arrow {
-  position: relative;
-  margin-top: 1rem;
   height: 2rem;
   z-index: 3;
 }

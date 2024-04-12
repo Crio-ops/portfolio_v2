@@ -1,5 +1,5 @@
 import React from 'react';
-import Love from '../../assets/img/heart.svg';
+import Love from '../../assets/img/decoration/heart.svg';
 
 function Footer() {
   return (

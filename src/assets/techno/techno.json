@@ -1,0 +1,50 @@
+{
+    "techno": [
+      {
+        "name": "Css",
+        "image": "css.png"
+      },
+      {
+        "name": "Html",
+        "image": "html.png"
+      },
+      {
+        "name": "Java",
+        "image": "java.png"
+      },
+      {
+        "name": "Javascript",
+        "image": "js.png"
+      },
+      {
+        "name": "React",
+        "image": "react.png"
+      },
+      {
+        "name": "React Native",
+        "image": "reactnative.png"
+      },
+      {
+        "name": "Php",
+        "image": "php.png"
+      },
+      {
+        "name": "Nodejs",
+        "image": "nodejs.png"
+      },
+      {
+        "name": "RaspberryPi",
+        "image": "raspberry.png"
+      },
+      {
+        "name": "Linux",
+        "image": "linux.png"
+      },
+      {
+        "name": "Github",
+        "image": "github.png"
+      }
+      
+      
+    ]
+  }
