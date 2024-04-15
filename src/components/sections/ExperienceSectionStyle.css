@@ -3,59 +3,50 @@
   color: #282c34;
 }
 
-.tab {
-  display: flex;
-  justify-content: center;
-  /* background-color: rgba(78, 117, 155, 0.507); */
-  border-radius: 10px;
-  width: 50em;
-  /* height: auto; */
-  margin: 0 1vh;
-}
 
 .exp_container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+
+  margin: 5em 20vh ;
+}
+
+.techno_img {
+  
+  height: 8em;
+  transition: height 0.5s ease; 
+  padding: 1em;
+}
+
+.techno_card_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 8rem));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
   justify-content: center;
   margin: 0 1vh;
 }
-
-/* td {
-  text-align: "center";
-  padding: "10px";
-} */
-.img {
-  /* margin-top: -10px ; */
-  height: 3em;
-  transition: height 0.5s ease; 
+.techno_card {
+border-radius: 10px;
+background-color: #282c34;
 }
 
-td {
-  position: relative; 
-
+.techno_text {
+  text-align: center;
+  color:aliceblue ;
 }
 
-.tech_img {
-  height: 5rem;
-  width: 5rem;
-}
-.tech_text {
-  font-weight: 800;
-  margin-bottom: -2px;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.7s ease-in-out; 
+.card {
+position: relative;
 }
 
-.tech_img:hover .img{
+@media only screen and (max-width: 1000px) {
+  .exp_container {
+    margin: 0;
+  }
+}
+
+.cvContainer {
+  border-radius: 10px;
   height: 5em;
-  width: auto;
-  overflow: auto;
-  z-index: 2;
-}
-.tech_img:hover .tech_text{
-  opacity: 1;
-  visibility: visible;
+  width: 10%;
+  background-color: #282c34;
 }

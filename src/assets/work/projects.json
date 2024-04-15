@@ -5,14 +5,24 @@
       "title_fr": "Chef's Mate",
       "desc_eng": "Developed with React Native, React, Express.js, and the OpenFoodFacts API.",
       "desc_fr": "Réalisé avec React Native, React, Express.js et L'Api OpenFoodFacts",
-      "img": "logscreen_chefmate.jpg"
+      "img": "logscreen_chefmate.jpg",
+      "link" : "https://github.com/Crio-ops/smartfridge"
     },
     {
       "title_eng": "Vaccination Center",
       "title_fr": "Centre de Vaccination",
       "desc_eng": "Developed with Java",
       "desc_fr": "Réalisé en Java",
-      "img": "cv.png"
+      "img": "cv.png",
+      "link" : "https://github.com/Crio-ops/smartfridge"
+    },
+    {
+      "title_eng": "My portfolio",
+      "title_fr": "Mon portfolio",
+      "desc_eng": "Developed with React",
+      "desc_fr": "Réalisé avec React",
+      "img": "portfolio.png",
+      "link" : "https://github.com/Crio-ops/smartfridge"
     }
   ]
 }

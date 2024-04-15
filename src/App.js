@@ -9,15 +9,19 @@ import PassionSection from "./components/sections/PassionSection";
 import ExperienceSection from "./components/sections/ExperienceSection";
 import WorkSection from "./components/sections/WorkSection";
 import ContactSection from "./components/sections/ContactSection";
+import CvDownloader from "./components/cvDownloader/CvDownloader.js";
 
 function App() {
+
   useEffect(() => {
     document.title = "Hermant Kevin - Portfolio";
   }, []);
+  
   return (
     <div className="App">
       <div className="body">
         <Navbar />
+        <CvDownloader />
         <IntroSection />
         <AboutSection />
         <PassionSection />

@@ -3,7 +3,42 @@
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+  margin: 7vh 0;
 }
-.socialNetwork {
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5vh;
+}
+.contact {
+  border-radius: 10px;
+  background-color: rgba(215, 217, 219, 0.788);
+  height: 40vh;
+  width: 60vh;
+  padding: 4em 5em 20em 5em;
+}
+.contact_info li {
+  margin-top: 15px;
+  text-decoration: none;
+}
 
+.contact_info a {
+  color: black;
+  text-decoration: none;
+}
+.contact_info a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contactContainer {
+    margin: 0;
+  }
+  .contact {
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    padding:2em;
+  }
 }

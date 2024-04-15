@@ -1,6 +1,6 @@
 .card_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 30rem));
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 30rem));
     grid-auto-rows: auto;
     grid-gap: 1rem;
     justify-content: center;

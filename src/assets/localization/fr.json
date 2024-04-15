@@ -23,8 +23,8 @@
   "work_title" : "CE QUE J'AI FAIT",
   "api_title":"Quelques api utilisées durant mes projets :",
   "CONTACT": "CONTACT",
-  "": "",
-  "": "",
+  "contact_text" : " Pour plus d'informations, vous pouvez me contacer par :",
+  "cv_download": "Télécharger mon cv complet",
   "": "",
   "": ""
 }
