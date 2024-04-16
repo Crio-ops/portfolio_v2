@@ -5,24 +5,139 @@
       "title_fr": "Chef's Mate",
       "desc_eng": "Developed with React Native, React, Express.js, and the OpenFoodFacts API.",
       "desc_fr": "Réalisé avec React Native, React, Express.js et L'Api OpenFoodFacts",
+      "modal_description_en": [
+        {
+          "platform_title": "Platform",
+          "platform_text": "Mobile",
+          "objective_title": "Objective :",
+          "objective_text": "Simplify home food management, enabling users to make informed decisions for their purchases and meals.",
+
+          "technicalImplementation_title": "Technical Implementation :",
+          "technicalImp_text_1": "Mobile client developed in React Native",
+          "technicalImp_text_3": "Backend API developed in Node.js – Express.js (Hosted on raspberry PI4)",
+          "technicalImp_text_2": "Web client (admin) developed in React (Hosted on raspberry PI4)",
+          "technicalImp_text_4": "MySQL database (Hosted on raspberry PI4)",
+          "technicalImp_text_5": "Use of the OpenFoodFacts API for CRUD operations on products (The API allows searching, adding, and modifying products via their barcodes)",
+
+          "needAndStructure_title": "Needs and Structure :",
+          "need_subtitle_1": "Mobile Application:",
+
+          "need_sub_1_text_1": "Integrates a digital representation of the household kitchen.",
+          "need_sub_1_text_2": "Allows users to record food products, track their usage until complete consumption.",
+          "need_sub_1_text_3": "Create recipes and obtain recipe lists.",
+          "need_sub_1_text_4": "Compare products in one's kitchen with those needed to make a recipe to adjust purchases.",
+
+          "need_subtitle_2": "Serveur/API :",
+          "need_sub_2_text_1": "Facilitates communication between the mobile application and associated databases.",
+          "need_sub_2_text_2": "Receives user requests, interacts with the application's MySQL database, and connects to the OpenFoodFacts public database.",
+          "need_sub_2_text_3": "Handles administrator requests from the project's web site.",
+
+          "need_subtitle_3": "Administrator Website:",
+          "need_sub_3_text_1": "Allows administrators to add or remove product categories for flexible database management and ensures dynamic adaptation to the application's evolving and changing needs."
+        }
+      ],
+      "modal_description_fr": [
+        {
+          "platform_title": "Support",
+          "platform_text": "mobile",
+          "objective_title": "Objectif",
+          "objective_text": "Simplifier la gestion des produits alimentaires à domicile, permettant aux utilisateurs de prendre des décisions éclairées pour leurs achats et repas.",
+          "technicalImplementation_title": "Implémentation technique",
+          "technicalImp_text_1": "Client mobile réalisé en React Native",
+          "technicalImp_text_2": "Api back-end realisée en node.js – Express.js",
+          "technicalImp_text_3": "Client web (administrateur) réalisé en React",
+          "technicalImp_text_4": "Base de données Mysql",
+          "technicalImp_text_5": "Utilisation de l’api OpenFoodFacts pour le CRUD des produits (L’api permet de rechercher, d’ajouter et modifier des produits via leurs code- barres)",
+          "needAndStructure_title": "Besoin et structure :",
+          "need_subtitle_1": "Application pour Appareil Mobile",
+          "need_sub_1_text_1": "Intègre une représentation numérique de la cuisine domestique.",
+          "need_sub_1_text_2": "Permet d'enregistrer des produits alimentaires, suivre leur utilisation jusqu'à la consommation complète.",
+          "need_sub_1_text_3": "Créer des recettes et obtenir des listes de recettes.",
+          "need_sub_1_text_4": "Comparer les produits possédés dans sa cuisine avec les produits nécessaire à la réalisation d’une recette afin d’ajuster ses achats.",
+          "need_subtitle_2": "Serveur/API :",
+          "need_sub_2_text_1": "Facilite la communication entre l'application mobile et les bases de données associées.",
+          "need_sub_2_text_2": "Réceptionne les requêtes des utilisateurs, interagit avec la base de données MySQL de l'application et se connecte à la base de données publique d'OpenFoodFacts.",
+          "need_sub_2_text_3": "Gère les requêtes administrateur du site web du projet.",
+          "need_subtitle_3": "Site Web Administrateur :",
+          "need_sub_3_text_1": "Permet aux administrateurs d'ajouter ou de supprimer des catégories de produits pour une gestion flexible de la base de données."
+        }
+      ],
       "img": "logscreen_chefmate.jpg",
-      "link" : "https://github.com/Crio-ops/smartfridge"
+      "link": "https://github.com/Crio-ops/smartfridge"
     },
     {
       "title_eng": "Vaccination Center",
       "title_fr": "Centre de Vaccination",
       "desc_eng": "Developed with Java",
       "desc_fr": "Réalisé en Java",
+      "modal_description_en": [
+        {
+          "platform_title": "Support",
+          "platform_text": "Web Service",
+          "objective_title": "Objective",
+          "objective_text": "Facilitate vaccination for the Belgian population.",
+          "technicalImplementation_title": "Technical Implementation:",
+          "technicalImp_text_1": "Project in Java in the form of a web service with a client/server architecture.",
+          "technicalImp_text_2": "Frontend developed in Java, JSP, Bean, CSS (Bootstrap), HTML.",
+          "technicalImp_text_3": "CRUD operations for vaccination centers implemented with Nominatim and Leaflet APIs.",
+          "technicalImp_text_4": "Backend connected to a Java-made API (by myself) and linked to a MySQL database.",
+          "technicalImp_text_5": "Backend developed in Java with Servlet, Bean, DAO.",
+          "needAndStructure_title": "Needs and Structure:",
+          "need_subtitle_1": "Patients ",
+          "need_sub_1_text_2": "View available vaccination centers.",
+          "need_sub_1_text_1": "Schedule appointments at a vaccination center of their choice among several options.",
+          "need_sub_1_text_3": "View their vaccination status and obtain a QR code.",
+          "need_subtitle_2": "Centers Administrators:",
+          "need_sub_2_text_1": "View the progress of the vaccination campaign in the centers.",
+          "need_sub_2_text_2": "CRUD management of vaccination center staff.",
+          "need_subtitle_3": "Vaccination Center Administrators:",
+          "need_sub_3_text_1": "View the progress of the vaccination campaign in their center.",
+          "need_sub_3_text_2": "CRUD management of collaborators (nurses, doctors, etc.).",
+          "need_subtitle_4": "Nurses and Doctors:",
+          "need_sub_4_text_1": "Manage patient appointments (consultation and closure of appointments, recording of administered vaccine batches, etc.)"
+        }
+      ],
+      "modal_description_fr": [
+        {
+          "platform_title": "Support",
+          "platform_text": "Web Service",
+          "objective_title": "Objectif",
+          "objective_text": "Faciliter la vaccination de la population belge.",
+          "technicalImplementation_title": "Implémentation technique",
+          "technicalImp_text_1": "Projet en Java sous forme de service web avec une architecture client/serveur.",
+          "technicalImp_text_2": "Front-end réalisé en Java, JSP, Bean, CSS (bootstrap), HTML.",
+          "technicalImp_text_3": "Back-end connecté réalisée en Java (par mes soins) et liée à une base de données MySQL.",
+          "technicalImp_text_4": "CRUD des centres de vaccination implémentés avec les API Nominatim et Leaflet.",
+          "technicalImp_text_5": "Back-end réalisé en Java avec Servlet, Bean, DAO",
+          "needAndStructure_title": "Besoin et structure :",
+          "need_subtitle_1": "Patients ",
+          "need_sub_1_text_2": "Consultation des centres de vaccination disponibles.",
+          "need_sub_1_text_1": "Prise de rendez-vous dans un centre de vaccination de leur choix parmi plusieurs options.",
+          "need_sub_1_text_3": "Consultation de leur état vaccinal et obtention d'un QR code.",
+          "need_subtitle_2": "Administrateurs des centres :",
+          "need_sub_2_text_1": "Consultation de l'avancement de la campagne vaccinale dans les centres.",
+          "need_sub_2_text_2": "Gestion CRUD du personnel des centres de vaccination.",
+          "need_subtitle_3": "Administrateurs d'un centre de vaccination :",
+          "need_sub_3_text_1": "Consultation de l'avancement de la campagne vaccinale dans leur centre.",
+          "need_sub_3_text_2": "Gestion CRUD des collaborateurs (infirmiers, médecins, etc.).",
+          "need_subtitle_4": "Infirmiers et médecins",
+          "need_sub_4_text_1": "Gestion de leurs rendez-vous patient (consultation et clôture du rdv, enregistrement des lots de vaccins administrés, …)"
+        }
+      ],
       "img": "cv.png",
-      "link" : "https://github.com/Crio-ops/smartfridge"
+      "link": "https://github.com/Crio-ops/smartfridge"
     },
     {
       "title_eng": "My portfolio",
       "title_fr": "Mon portfolio",
       "desc_eng": "Developed with React",
       "desc_fr": "Réalisé avec React",
+      "modal_description_en": [{
+      }],
+      "modal_description_fr": [{
+      }],
       "img": "portfolio.png",
-      "link" : "https://github.com/Crio-ops/smartfridge"
+      "link": "https://github.com/Crio-ops/portfolio_v2"
     }
   ]
 }

@@ -13,7 +13,7 @@ function PassionSection() {
     () => ({
       from: {
         opacity: 0,
-        x: 200,
+        x: 100,
       },
       to: {
         opacity: 1,

@@ -52,12 +52,42 @@
   padding: 0;
 }
 
-a {
+.magniferContainer {
   z-index: 2;
 }
 
-a img {
+.magniferContainer img {
   height: 5em;
 }
 
+.modal_title {
+font-size: larger;
+}
+.modal_subtitle {
+  margin: 1em 0 1em 3em; 
+  list-style-type : decimal;
+  font-size: medium;
+  font-weight: 800;
+}
+.modal_text {
+  margin-left: 3em;
+  list-style-type : disc;
+ font-weight: 400;
+}
+
+.modal_sourcecode_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid rgb(39, 101, 235) ;
+  background-color: rgb(7, 53, 153);
+  height: 2.5em;
+  width: 10em;
+}
+.modal_sourcecode_button:hover {
+  background-color: rgb(5, 40, 116);;
+}
 

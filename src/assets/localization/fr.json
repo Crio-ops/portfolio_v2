@@ -22,6 +22,8 @@
   "WORK": "MON TRAVAIL",
   "work_title" : "CE QUE J'AI FAIT",
   "api_title":"Quelques api utilisées durant mes projets :",
+  "source_code_button":"Voir le code source",
+  
   "CONTACT": "CONTACT",
   "contact_text" : " Pour plus d'informations, vous pouvez me contacer par :",
   "cv_download": "Télécharger mon cv complet",
