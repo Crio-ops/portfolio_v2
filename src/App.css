@@ -2,7 +2,7 @@
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
-  background-color: rgb(243, 241, 238);
+  background-color: #efdfd1;
 }
 
 .body {
@@ -19,9 +19,10 @@
   height: 100%;
   padding-top: 9vh;
   padding-bottom: 5vh;
+ 
 }
 #intro {
-  background-image: url(./assets/img/decoration/polygonal-blue-background.jpg);
+  background-image: url(./assets/img/decoration/forest.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -32,7 +33,7 @@
 }
 #passion {
   position: relative;
-  background-image: url(./assets/img/decoration/abstract_geometrical.jpg);
+  background-image: url(./assets/img/decoration/forest2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -57,7 +58,7 @@
   left: 0;
   width: 100%;
   height: 80vh;
-  background-color: rgba(0, 0, 0, 0.479);
+  background-color: rgba(0, 0, 0, 0.521);
   z-index: 1;
 }
 #passion::before {
@@ -131,7 +132,7 @@
   position: relative;
   height: auto; 
   min-height: 40vh;
-  background-color: rgb(243, 241, 238);
+  background-color: #efdfd1;
   color: #282c34;
   padding-top: 20px;
 }

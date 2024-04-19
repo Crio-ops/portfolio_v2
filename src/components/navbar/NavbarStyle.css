@@ -9,15 +9,15 @@
   height: 9vh;
   width: 100%;
   transition: background 0.5s ease-in-out, height 0.5s ease-in-out;
-  color: aliceblue;
+  color: #ffffff;
   padding-right: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Ajoutez une classe pour le fond de la barre de navigation */
 .navContainer.scrolled {
-  color: aliceblue;
-  background: rgb(20, 20, 20);
+  color: #ffffff;
+  background: #200f00;
   height: 6vh;
   transition: background 0.5s ease-out-in, height 0.5s ease-out-in;
 }
@@ -30,7 +30,7 @@
   margin-top: 0.3em;
   font-size: 1.2em;
   text-decoration: none;
-  color: aliceblue;
+  color: #ffffff;
 }
 .navItems:hover {
   color: rgb(165, 160, 160);
@@ -44,7 +44,7 @@
   align-self: center;
   text-align: end;
   text-decoration: none;
-  color: aliceblue;
+  color: #ffffff;
 }
 .navLink:hover {
   color: rgb(165, 160, 160);
